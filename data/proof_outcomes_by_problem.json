@@ -1,0 +1,3682 @@
+{
+  "0": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "1": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "2": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "3": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "4": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "5": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "6": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "7": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "8": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "9": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "10": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "11": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "12": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "13": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "14": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "15": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "16": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "17": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "18": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "19": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "20": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "21": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "22": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "23": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "24": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "25": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "26": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "27": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "28": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "29": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "30": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "31": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "32": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "33": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "34": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "35": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "36": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "37": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "38": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "39": {
+    "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ByteDance-Seed_BFS-Prover": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Goedel-LM_Goedel-Prover-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kfdong_STP_model_Lean": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wellecks_llmstep-mathlib4-pythia2.8b": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
