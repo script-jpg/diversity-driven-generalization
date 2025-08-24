@@ -1,0 +1,9 @@
+{
+    "('AI-MO/Kimina-Prover-Preview-Distill-7B', 'ByteDance-Seed/BFS-Prover')": 0.005868181586265564,
+    "('AI-MO/Kimina-Prover-Preview-Distill-7B', 'Goedel-LM/Goedel-Prover-SFT')": 0.4999999881414796,
+    "('ByteDance-Seed/BFS-Prover', 'Goedel-LM/Goedel-Prover-SFT')": 0.4999999831036992,
+    "('AI-MO/Kimina-Prover-Preview-Distill-7B', 'deepseek-ai/DeepSeek-Prover-V1')": 0.4999999847412919,
+    "('ByteDance-Seed/BFS-Prover', 'deepseek-ai/DeepSeek-Prover-V1')": 0.49999999134323403,
+    "('AI-MO/Kimina-Prover-Preview-Distill-7B', 'deepseek-ai/DeepSeek-Prover-V1.5-RL')": 0.49999998187983463,
+    "('ByteDance-Seed/BFS-Prover', 'deepseek-ai/DeepSeek-Prover-V1.5-RL')": 0.49999995018216303
+}
