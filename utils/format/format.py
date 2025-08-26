@@ -92,7 +92,7 @@ def remove_trailing_end(s: str) -> str:
 
 
 def formatProof(s: str, count: int | None = None) -> str:
-    return remove_trailing_end(remove_leading_whitespace(strip_trailing_fence(s), count))
+    return remove_leading_whitespace(remove_trailing_end(strip_trailing_fence(s)), count)
 
 
 def apply_bulk_strategies(s: str) -> list[str]:

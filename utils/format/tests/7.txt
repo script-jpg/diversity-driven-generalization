@@ -1,0 +1,5 @@
+have h₄ : v = 65 := by
+    field_simp [h₂, h₃] at h₁ ⊢
+    linarith
+  exact h₄
+```

@@ -1,0 +1,6 @@
+have h₃ : x ≠ 0 := h₀
+  have h₄ : 7 * y = 10 * z := h₂
+  have h₅ : 2 * x = 5 * y := h₁
+  field_simp at *
+  linarith
+end
