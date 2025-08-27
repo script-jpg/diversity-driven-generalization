@@ -81,28 +81,53 @@ def safe_format_proof(s: str, count: int | None = None) -> Result[str, Exception
     except Exception as exc:  # pylint: disable=broad-except
         return Err(exc)
 
+def extract_proof_from_full(s: str) -> Result[str, Exception]:
+    """
+    sometimes the entire proof is inside the lean block. We need to extract just the proof.
+    """
+    try:
+        lines = s.splitlines()
+        idx = None
+        for i, line in enumerate(lines):
+            if "theorem" in line:
+                idx = i
+                break
+        if idx is None:
+            return Err(Exception("no theorem line found")) 
+        # assume proof starts after the line with theorem
+        proof_statement = lines[idx+1:]
+        # trim leading/trailing empty lines
+        while proof_statement and proof_statement[0].strip() == "":
+            proof_statement.pop(0)
+        return Ok("\n".join(proof_statement))
+    except Exception as exc:
+        return Err(exc)
+
 
 # ---------- Bulk strategy using the Result wrapper ----------
 def apply_bulk_strategies(s: str) -> List[str]:
+    pf: str = ""
     match extract_last_lean4_block(s):
         case None:
-            # Try (variable, 2, 4) indent
-            # Each call is wrapped in `safe_format_proof` which yields a Result[Ok|Err].
-            attempts: List[Result[str, Exception]] = (
-                [safe_format_proof(s)] +
-                [safe_format_proof(s, i) for i in (2, 4)]
-            )
+            pf = s
         case block:
-            # We found a Lean block – format it once.
-            attempts: List[Result[str, Exception]] = [safe_format_proof(block)]
+            extracted_proof = extract_proof_from_full(block)
+            match extracted_proof:
+                case Ok(val):
+                    pf = val
+                case Err(_):
+                    pf = block
+
+    attempts: List[Result[str, Exception]] = [Ok(pf)] + [safe_format_proof(pf)] + [safe_format_proof(pf, i) for i in (2, 4)]
 
     # Keep only the successful proofs; optionally log the failures.
     results: List[str] = []
     for r in attempts:
-        if isinstance(r, Ok):
-            results.append(r.value)
-        else:
-            logger.debug("formatProof failed with %s", r.error)
+        match r:
+            case Ok(val):
+                results.append(val)
+            case Err(e):
+                logger.debug("formatProof failed with %s", e)
 
     return results
 

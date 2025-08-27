@@ -1,0 +1,49 @@
+-- The four-digit number is $374n$, where $n$ is the units digit.
+    -- This number can be expressed as $3740 + n$ or $374 \cdot 10 + n$.
+    -- We're given that $18 \mid 3740 + n$.
+    have : 18 ∣ 374 * 10 + n := h₁
+    -- We need to find the value of $n$.
+    -- Since $n$ is a digit, it must be between $0$ and $9$.
+    have : n ≤ 9 := h₀
+    -- We can determine the value of $n$ by checking which digit makes $3740 + n$ divisible by $18$.
+    interval_cases n
+    -- The tactic `interval_cases n` will generate cases for all possible values of $n$ from $0$ to $9$.
+    -- For each case, we can check whether $3740 + n$ is divisible by $18$.
+    -- Let's do this manually to verify that $n = 4$ is indeed the only solution:
+    -- - $3740 + 0 = 3740$, and $3740 \div 18 \approx 207.78$ (not an integer)
+    -- - $3740 + 1 = 3741$, and $3741 \div 18 \approx 207.83$ (not an integer)
+    -- - $3740 + 2 = 3742$, and $3742 \div 18 \approx 207.89$ (not an integer)
+    -- - $3740 + 3 = 3743$, and $3743 \div 18 \approx 207.94$ (not an integer)
+    -- - $3740 + 4 = 3744$, and $3744 \div 18 = 208$ (an integer!)
+    -- - $3740 + 5 = 3745$, and $3745 \div 18 \approx 208.06$ (not an integer)
+    -- - $3740 + 6 = 3746$, and $3746 \div 18 \approx 208.11$ (not an integer)
+    -- - $3740 + 7 = 3747$, and $3747 \div 18 \approx 208.17$ (not an integer)
+    -- - $3740 + 8 = 3748$, and $3748 \div 18 \approx 208.22$ (not an integer)
+    -- - $3740 + 9 = 3749$, and $3749 \div 18 \approx 208.28$ (not an integer)
+    <;> norm_num at *
+    -- The `norm_num` tactic will compute the arithmetic expressions in each case and check if the divisibility condition holds.
+    -- After checking all cases, we find that only when $n = 4$ is $3740 + n$ divisible by $18$.
+    -- Therefore, the units digit $n$ is indeed $4$.
+
+
+This completes our proof that $n = 4$ is the only solution.
+
+# Conclusion
+
+The units digit $n$ of the four-digit number $374n$ that makes it divisible by 18 is 4. This was proven by checking each possible digit value and confirming that only $n = 4$ results in a number divisible by 18.
+</think>
+```lean4
+import Mathlib
+import Aesop
+
+set_option maxHeartbeats 0
+
+open BigOperators Real Nat Topology Rat
+
+/-- The four-digit number $\underline{374n}$ is divisible by 18. Find the units digit $n$. Show that it is 4.-/
+theorem mathd_numbertheory_1124 (n : ℕ) (h₀ : n ≤ 9) (h₁ : 18 ∣ 374 * 10 + n) : n = 4 := by
+  have : 18 ∣ 374 * 10 + n := h₁
+  have : n ≤ 9 := h₀
+  interval_cases n
+  <;> norm_num at *
+```
