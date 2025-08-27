@@ -81,25 +81,23 @@ def safe_format_proof(s: str, count: int | None = None) -> Result[str, Exception
     except Exception as exc:  # pylint: disable=broad-except
         return Err(exc)
 
+
 def extract_proof_from_full(s: str) -> Result[str, Exception]:
     """
     sometimes the entire proof is inside the lean block. We need to extract just the proof.
     """
     try:
-        lines = s.splitlines()
-        idx = None
-        for i, line in enumerate(lines):
-            if "theorem" in line:
-                idx = i
-                break
-        if idx is None:
-            return Err(Exception("no theorem line found")) 
-        # assume proof starts after the line with theorem
-        proof_statement = lines[idx+1:]
-        # trim leading/trailing empty lines
-        while proof_statement and proof_statement[0].strip() == "":
-            proof_statement.pop(0)
-        return Ok("\n".join(proof_statement))
+        m_thm = re.search(r"\btheorem\b", s)
+        if not m_thm:
+            return Err(Exception("no theorem keyword found"))
+        m_by = re.search(r"\bby\b", s[m_thm.end() :])
+        if not m_by:
+            return Err(Exception("no `by` found after theorem"))
+        start = m_thm.end() + m_by.start() + 2  # position right after 'by'
+        proof = s[start:].lstrip("\n ")  # keep comments; just trim leading whitespace
+        if not proof.strip():
+            return Err(Exception("empty proof after `by`"))
+        return Ok(proof)
     except Exception as exc:
         return Err(exc)
 
@@ -118,7 +116,9 @@ def apply_bulk_strategies(s: str) -> List[str]:
                 case Err(_):
                     pf = block
 
-    attempts: List[Result[str, Exception]] = [Ok(pf)] + [safe_format_proof(pf)] + [safe_format_proof(pf, i) for i in (2, 4)]
+    attempts: List[Result[str, Exception]] = (
+        [Ok(pf)] + [safe_format_proof(pf)] + [safe_format_proof(pf, i) for i in (2, 4)]
+    )
 
     # Keep only the successful proofs; optionally log the failures.
     results: List[str] = []
