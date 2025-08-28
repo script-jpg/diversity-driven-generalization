@@ -3,7 +3,7 @@
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       1,
       0,
-      0,
+      1,
       0,
       0,
       1,
@@ -42,33 +42,33 @@
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
       0,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
       0,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
       1,
       0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
@@ -144,20 +144,20 @@
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "kfdong_STP_model_Lean": [
+      1,
       0,
       0,
       0,
-      0,
-      0,
+      1,
       0,
       0,
       0
@@ -242,7 +242,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
       0,
@@ -292,13 +292,13 @@
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      1,
       0
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -309,7 +309,7 @@
     "deepseek-ai_DeepSeek-Prover-V1": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -337,9 +337,9 @@
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0,
       0,
       0,
@@ -370,7 +370,7 @@
   "4": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       1,
-      0,
+      1,
       0,
       0,
       0,
@@ -386,7 +386,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       0,
@@ -396,7 +396,7 @@
       0,
       1,
       1,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
       1,
@@ -409,40 +409,40 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "kfdong_STP_model_Lean": [
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
       1,
-      0,
-      0,
+      1,
+      1,
       1,
       1,
       1,
@@ -462,83 +462,83 @@
   "5": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       0,
+      1,
+      1,
       0,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       0,
       0,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
       0,
       0,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
+      1,
+      1,
+      1,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -685,14 +685,14 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
@@ -700,19 +700,19 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
@@ -740,10 +740,10 @@
       0,
       0,
       0,
+      1,
       0,
       0,
-      0,
-      0,
+      1,
       0
     ],
     "ByteDance-Seed_BFS-Prover": [
@@ -760,7 +760,7 @@
       1,
       1,
       0,
-      0,
+      1,
       1,
       0,
       0,
@@ -778,16 +778,16 @@
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
       0,
+      1,
       0,
       0,
       0,
       0,
-      0,
-      0,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
-      0,
+      1,
       0,
       0,
       0,
@@ -797,18 +797,18 @@
       0
     ],
     "kfdong_STP_model_Lean": [
+      1,
+      1,
       0,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
-      1,
+      0,
       1,
       1,
       1,
@@ -879,19 +879,19 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
       0,
       0,
       0,
+      1,
       0,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -921,91 +921,91 @@
   },
   "10": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
+      1,
+      1,
+      0,
+      1,
+      1,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
+      1,
+      1,
+      0,
+      1,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      0,
+      1,
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      1,
       0,
       0,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
       0,
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
+      1,
       0,
-      0,
-      0,
+      1,
       0,
       0,
       0
@@ -1015,7 +1015,7 @@
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       0,
       0,
-      0,
+      1,
       1,
       1,
       1,
@@ -1036,14 +1036,14 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       1,
       0,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
-      0,
+      1,
       1,
       0,
       0,
@@ -1053,44 +1053,44 @@
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "deepseek-ai_DeepSeek-Prover-V2-7B": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
-      0
-    ],
-    "kfdong_STP_model_Lean": [
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
-      1,
-      1,
-      1,
       1,
       1,
       0,
       1
+    ],
+    "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "stoney0062_Leanabell-Prover-DS-SFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -1174,16 +1174,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -1198,7 +1188,7 @@
   "13": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -1214,7 +1204,7 @@
       1,
       1,
       1,
-      0
+      1
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       0,
@@ -1230,17 +1220,17 @@
       0,
       1,
       1,
-      0,
+      1,
       1,
       1,
       1,
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
+      1,
       1,
       0,
-      0,
+      1,
       1,
       1,
       1,
@@ -1266,24 +1256,14 @@
       1,
       1
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
-      1,
-      1,
-      1,
-      0,
-      1,
-      1,
-      1
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      1,
       0
     ]
   },
@@ -1311,7 +1291,7 @@
     "Goedel-LM_Goedel-Prover-SFT": [
       1,
       0,
-      0,
+      1,
       1,
       1,
       1,
@@ -1320,7 +1300,7 @@
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
       1,
-      0,
+      1,
       1,
       0,
       1,
@@ -1333,15 +1313,15 @@
       1,
       1,
       0,
-      0,
-      0,
+      1,
+      1,
       0,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       1,
       0,
-      0,
+      1,
       1,
       0,
       0,
@@ -1350,19 +1330,9 @@
     ],
     "kfdong_STP_model_Lean": [
       1,
-      0,
       1,
       1,
       1,
-      1,
-      1,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
-      1,
-      1,
-      0,
       1,
       1,
       1,
@@ -1407,7 +1377,7 @@
       1,
       0,
       1,
-      0,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
@@ -1421,43 +1391,33 @@
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      1,
+      1,
+      1,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0,
       0
     ],
     "kfdong_STP_model_Lean": [
       1,
+      1,
+      1,
+      1,
       0,
       1,
-      1,
       0,
-      1,
-      0,
-      1
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
       1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
@@ -1542,16 +1502,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -1565,18 +1515,18 @@
   },
   "17": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
-      0,
-      0,
       1,
       1,
       0,
+      1,
       0,
-      0,
+      1,
+      1,
       1
     ],
     "ByteDance-Seed_BFS-Prover": [
       1,
-      0,
+      1,
       1,
       1,
       1,
@@ -1605,44 +1555,34 @@
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
+      1,
+      1,
+      1,
       1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
+      1,
       1,
       0,
       1,
       1,
-      1,
-      1,
-      1,
-      0
+      0,
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -1717,16 +1657,6 @@
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
@@ -1818,16 +1748,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -1851,12 +1771,12 @@
       0
     ],
     "ByteDance-Seed_BFS-Prover": [
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
       0,
       0
     ],
@@ -1871,17 +1791,17 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
+      1,
       0,
       0,
       0,
@@ -1904,21 +1824,21 @@
       0,
       0,
       0,
+      1,
+      1,
       0,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -1983,34 +1903,24 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
+      1,
       1,
       0,
       0,
-      1,
       0,
       0,
-      0
+      0,
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -2118,13 +2028,13 @@
   "23": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       0,
-      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
       1,
@@ -2137,14 +2047,14 @@
       1
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
+      1,
+      1,
+      1,
+      1,
+      1,
       0,
       1,
-      1,
-      0,
-      1,
-      0,
-      1,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
       1,
@@ -2152,44 +2062,34 @@
       1,
       1,
       1,
-      0,
+      1,
       1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      0,
+      1,
+      1,
+      1,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
       1,
-      0,
+      1,
       1,
       1,
       1,
@@ -2278,16 +2178,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -2301,7 +2191,7 @@
   },
   "25": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
-      0,
+      1,
       0,
       0,
       0,
@@ -2352,25 +2242,15 @@
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
+      1,
       0,
       0,
-      0,
-      0,
+      1,
       0,
       0,
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
@@ -2462,16 +2342,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -2500,7 +2370,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
@@ -2522,47 +2392,37 @@
       1,
       1,
       0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
       0,
       1
     ],
     "kfdong_STP_model_Lean": [
       1,
       1,
-      0,
-      1,
-      1,
-      0,
-      1,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
       1,
       1,
       1,
       1,
-      1,
-      1,
-      0
+      1
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -2646,16 +2506,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -2671,11 +2521,11 @@
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       1,
       0,
+      1,
+      1,
       0,
       1,
       1,
-      1,
-      0,
       0
     ],
     "ByteDance-Seed_BFS-Prover": [
@@ -2689,12 +2539,12 @@
       0
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
-      0,
-      0,
       1,
       1,
-      0,
-      0,
+      1,
+      1,
+      1,
+      1,
       0,
       0
     ],
@@ -2709,44 +2559,34 @@
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      0,
+      1,
+      1,
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
+      1,
       1,
       0,
-      0,
-      1,
-      0,
-      1,
       1,
       1
+    ],
+    "kfdong_STP_model_Lean": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
@@ -2821,16 +2661,6 @@
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
@@ -2922,16 +2752,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -2959,18 +2779,18 @@
       0,
       0,
       0,
-      0,
+      1,
       1,
       1,
       0
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       1,
-      0,
+      1,
       0,
       0,
       1,
-      0,
+      1,
       1,
       0
     ],
@@ -2995,33 +2815,23 @@
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      0,
+      1,
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
-      1,
-      1,
-      0,
       1,
       0,
       0,
+      0,
+      0,
+      1,
+      1,
       0
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
@@ -3037,14 +2847,14 @@
   },
   "33": {
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
-      0,
-      0,
+      1,
+      1,
       0,
       1,
       1,
       0,
-      0,
-      0
+      1,
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
       1,
@@ -3073,40 +2883,30 @@
       0,
       0,
       1,
-      0,
+      1,
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      1,
+      1,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       1,
       1,
       1,
@@ -3132,11 +2932,11 @@
       1,
       1,
       0,
-      0,
+      1,
       1,
       0,
       1,
-      0
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
       1,
@@ -3162,43 +2962,33 @@
       1,
       1,
       1,
-      0,
+      1,
       1,
       1,
       1,
       1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0,
       1
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
+    "kfdong_STP_model_Lean": [
       1,
       1,
       1,
@@ -3223,12 +3013,12 @@
     "AI-MO_Kimina-Prover-Preview-Distill-7B": [
       0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "ByteDance-Seed_BFS-Prover": [
       1,
@@ -3258,40 +3048,30 @@
       1,
       1,
       1,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
-      0,
-      0,
-      0,
       1,
-      0,
-      0,
-      0,
-      0
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
+      1,
       0,
       0,
+      1,
       0,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "kfdong_STP_model_Lean": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      1,
       1,
       1,
       1,
@@ -3305,7 +3085,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0
@@ -3373,16 +3153,6 @@
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
@@ -3474,16 +3244,6 @@
       0,
       0
     ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
       0,
       0,
@@ -3509,71 +3269,61 @@
     "ByteDance-Seed_BFS-Prover": [
       0,
       0,
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0,
       0,
       0
     ],
     "Goedel-LM_Goedel-Prover-SFT": [
       0,
+      1,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V1.5-RL": [
       0,
+      1,
+      1,
       0,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0,
+      1,
       0,
       0
     ],
     "kfdong_STP_model_Lean": [
+      1,
       0,
+      1,
+      1,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "wellecks_llmstep-mathlib4-pythia2.8b": [
@@ -3633,32 +3383,22 @@
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0,
+      1,
       0
     ],
     "deepseek-ai_DeepSeek-Prover-V2-7B": [
+      1,
+      1,
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
+      1,
       0
     ],
     "kfdong_STP_model_Lean": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "stoney0062_Leanabell-Prover-DS-SFT": [
       0,
       0,
       0,
