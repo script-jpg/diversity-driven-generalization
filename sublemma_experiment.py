@@ -29,6 +29,7 @@ os.environ["PATH"] = elan_bin_path + ":" + os.environ["PATH"]
 
 import os
 import subprocess
+import json
 
 def setup_lean_project(project_dir="/tmp/lean_project"):
     """
@@ -271,14 +272,6 @@ print(header)
 print("\nLemma:")
 print(lemma)
 
-# %% Function to check Lean proofs and update proof cache
-def check_lean_proof_and_update_proof_cache(proof_cache: list, proof_and_context: dict, log_errors=True) -> bool:
-    if check_lean_proof(proof_and_context, log_errors):
-        proved_lemma = split_formal_statement(proof_and_context['formal_statement'])[1] + " sorry" # proved by `sorry`
-        proof_cache.append(proved_lemma)
-        return True
-    return False
-
 # %% Functions to generate proofs
 from transformers import pipeline, AutoConfig, AutoTokenizer, AutoModelForCausalLM
 import logging
@@ -472,6 +465,73 @@ miniF2F_test_df = load_dataset("script-jpg/imo-1969-p2-lemmas", split="train").t
 for i, mid in enumerate(solver_model_ids):
     try:
       write_proofs_for_model(proof_cache, mid, miniF2F_test_df, base_output_dir=folder_path, max_attempts=8, gpu_batch_size=4, clear=True) # Passed folder_path
+      # After generating proofs, check them and update proof_cache
+      print(f"--- Checking proofs for model: {mid} ---")
+      for idx, problem_row in tqdm(miniF2F_test_df.iterrows(), total=len(miniF2F_test_df), desc=f"Checking proofs for {mid}"):
+          
+          problem_solved_once = False
+          problem_key = problem_row.get('problem_id', idx)
+          model_dir = Path(folder_path) / _sanitize_dir_name(problem_key) / _sanitize_dir_name(mid)
+          
+          # Check all generated proof files for this problem and model
+          for proof_file in model_dir.glob("*.txt"):
+              with open(proof_file, "r", encoding="utf-8") as f:
+                  proof_content = f.read().strip()
+              
+              # Construct correct_proof_dict
+              correct_proof_dict = {
+                  'formal_statement': problem_row['formal_statement'],
+                  'proof': proof_content,
+                  'project_dir': lean_project_path,
+                  'metadata': {
+                      'proof_solver': mid,
+                      'problem_id': str(problem_key),
+                      'attempt_id': proof_file.stem
+                  }
+              }
+              
+              # Check proof and update proof_cache if successful
+              is_correct = check_lean_proof(correct_proof_dict, log_errors=True)
+              
+              problem_solved_once = problem_solved_once or is_correct
+              
+              # Write to a log file in nested format
+              log_file_path = Path(folder_path) / "proof_checking_log.json"
+              log_file_path.parent.mkdir(parents=True, exist_ok=True)
+              
+              # Read existing log or create new structure
+              if log_file_path.exists():
+                  with open(log_file_path, "r", encoding="utf-8") as f:
+                      try:
+                          log_data = json.load(f)
+                      except json.JSONDecodeError:
+                          log_data = {}
+              else:
+                  log_data = {}
+              
+              # Initialize nested structure if needed
+              problem_key_str = str(problem_key)
+              if problem_key_str not in log_data:
+                  log_data[problem_key_str] = {}
+              
+              # Sanitize model name for JSON key
+              model_key = _sanitize_dir_name(mid)
+              if model_key not in log_data[problem_key_str]:
+                  log_data[problem_key_str][model_key] = []
+              
+              # Append the result (1 for correct, 0 for incorrect)
+              log_data[problem_key_str][model_key].append(1 if is_correct else 0)
+              
+              # Write back to file
+              with open(log_file_path, "w", encoding="utf-8") as f:
+                  json.dump(log_data, f, indent=2, ensure_ascii=False)
+                  
+          if problem_solved_once:
+              formal_statement = problem_row['formal_statement']
+              proved_lemma = split_formal_statement(formal_statement)[1] + " sorry" # proved by `sorry`
+              proof_cache.append(proved_lemma)
+              
+      print(f"--- Proof cache size after checking {mid}: {len(proof_cache)} ---")
       
     except Exception as e:
       print(f"Error for {mid}: {e}")
