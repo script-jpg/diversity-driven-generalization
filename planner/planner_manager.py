@@ -224,9 +224,11 @@ class Planner:
             logger.error(f"[{theorem_id}] Plan generation failed: {e}")
             return [], False, f"Plan generation failed: {e}"
         
-        # Skip verification for now (to see generated plans)
-        logger.info(f"[{theorem_id}] Skipping verification - returning generated plan")
-        return plan, False, "Verification skipped"
+        # Verify the generated plan
+        success, error_msg = theorem_data.verify_plan(theorem_id, plan)
+        if success:
+            logger.info(f"[{theorem_id}] {plan_type.capitalize()} verification succeeded")
+            return plan, True, None
         
         # Retry logic for failed verifications
         for retry_count in range(1, self.max_retries + 1):
