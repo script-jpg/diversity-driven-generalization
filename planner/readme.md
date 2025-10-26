@@ -1,0 +1,1 @@
+python main.py --mode initial --theorems mathd_algebra_478

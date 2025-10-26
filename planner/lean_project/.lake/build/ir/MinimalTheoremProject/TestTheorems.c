@@ -1,6 +1,6 @@
 // Lean compiler output
 // Module: MinimalTheoremProject.TestTheorems
-// Imports: Init Mathlib.Data.Nat.GCD.Basic Mathlib.Tactic
+// Imports: Init Mathlib.Data.Real.Basic Mathlib.Tactic
 #include <lean/lean.h>
 #if defined(__clang__)
 #pragma clang diagnostic ignored "-Wunused-parameter"
@@ -14,7 +14,7 @@
 extern "C" {
 #endif
 lean_object* initialize_Init(uint8_t builtin, lean_object*);
-lean_object* initialize_Mathlib_Data_Nat_GCD_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_Mathlib_Data_Real_Basic(uint8_t builtin, lean_object*);
 lean_object* initialize_Mathlib_Tactic(uint8_t builtin, lean_object*);
 static bool _G_initialized = false;
 LEAN_EXPORT lean_object* initialize_MinimalTheoremProject_TestTheorems(uint8_t builtin, lean_object* w) {
@@ -24,7 +24,7 @@ _G_initialized = true;
 res = initialize_Init(builtin, lean_io_mk_world());
 if (lean_io_result_is_error(res)) return res;
 lean_dec_ref(res);
-res = initialize_Mathlib_Data_Nat_GCD_Basic(builtin, lean_io_mk_world());
+res = initialize_Mathlib_Data_Real_Basic(builtin, lean_io_mk_world());
 if (lean_io_result_is_error(res)) return res;
 lean_dec_ref(res);
 res = initialize_Mathlib_Tactic(builtin, lean_io_mk_world());
