@@ -1,0 +1,8 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=.\\.\\.lake/packages\\batteries\\.lake\\build\\lib;.\\.\\.lake/packages\\Qq\\.lake\\build\\lib;.\\.\\.lake/packages\\aesop\\.lake\\build\\lib;.\\.\\.lake/packages\\proofwidgets\\.lake\\build\\lib;.\\.\\.lake/packages\\Cli\\.lake\\build\\lib;.\\.\\.lake/packages\\importGraph\\.lake\\build\\lib;.\\.\\.lake/packages\\mathlib\\.lake\\build\\lib;.\\.\\.lake\\build\\lib PATH c:\\Users\\Rishabh\\.elan\\toolchains\\leanprover--lean4---v4.10.0\\bin\\lean.exe .\\.\\.\\.\\MinimalTheoremProject\\TestTheorems.lean -R .\\.\\.\\. -o .\\.\\.lake\\build\\lib\\MinimalTheoremProject\\TestTheorems.olean -i .\\.\\.lake\\build\\lib\\MinimalTheoremProject\\TestTheorems.ilean -c .\\.\\.lake\\build\\ir\\MinimalTheoremProject\\TestTheorems.c --json",
+   "level": "trace"},
+  {"message":
+   ".\\.\\.\\.\\MinimalTheoremProject\\TestTheorems.lean:11:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "8276703100433317360"}

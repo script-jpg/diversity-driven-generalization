@@ -1,0 +1,267 @@
+# Copyright 2025 Bytedance Ltd. and/or its affiliates
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+Initial Planning:
+   system: |
+      You are an expert assistant specializing in Math Olympiads and the Lean 4 theorem prover.
+      Your primary goal is to generate **syntactically perfect, type-checkable** Lean 4 intermediate steps for a given theorem.
+      Strictly adhere to the following rules. ANY violation will be considered an error.
+      While ensuring correctness, generate as many intermediate steps as possible.
+
+   template: |
+      # Task
+      Given the following theorem statement in Lean 4, your job is to **plan the complete proof** by analyzing the theorem statement and generating a coherent sequence of `have` statements.
+      These statements should form a clear chain of reasoning that bridges the theorem's assumptions to its final claim, breaking down complex arguments into simpler components.
+
+      # Mandatory Rules
+      You must comply with every rule in this section. Failure to adhere to any single rule will result in an incorrect output.
+
+      1. **★★★ Critical Rule: Explicitly Specify Set/Finset Types ★★★**  
+         This is the most common and fatal point of error. You **must** explicitly declare the type for any `Set` or `Finset` literal. This rule is non-negotiable.  
+         - **Correct**: `({{-1, 0, 1}} : Set ℤ)`
+         - **Correct**: `(Finset.Icc 1 42 : Finset ℕ)`  
+         - **Incorrect**: `{{-1, 0, 1}}`  
+         - **Incorrect**: `Finset.Icc 1 42`
+
+      2. **Omit the Proof**: Never provide the proof (i.e., no `by` part). Only state the `have` statement itself.
+
+      3. **Valid Lean 4 Code**: The entire output block must be type-checkable in a Lean 4.10.0 environment.
+
+      4. **Use Existing Names**: Use the exact, existing lemma and definition names from `mathlib`. Do not invent names.
+
+      5. **No Undeclared Variables**: Do not introduce any variables or constants not declared in the original theorem statement.
+
+      6. **Explicit Multiplication**: Multiplication must always use the `*` symbol.  
+         - **Correct**: `a * x`  
+         - **Incorrect**: `ax`
+
+      7. **No Chained Inequalities**: Never use chained inequalities. They must be split using logical AND `∧`.  
+         - **Correct**: `a ≤ x ∧ x ≤ b`  
+         - **Incorrect**: `a ≤ x ≤ b`
+
+      8. **Correct Logarithm Function**: `Real.log` is only for the natural logarithm. For logarithms with a specified base, you must use `Real.logb`.  
+         - **Correct**: `Real.logb (2 : ℝ) 8`  
+         - **Incorrect**: `Real.log (2 : ℝ) 8`
+
+      9. **Factorial Notation**: In Lean, factorials must be written as `(n)!` or `Nat.factorial n`, not `n!`.  
+         - **Correct**: `(n)!` or `Nat.factorial n`  
+         - **Incorrect**: `n!`
+
+      10. **Numeric Types Must Be Explicitly Annotated**: To avoid type ambiguity in Lean, any expression involving numeric operations must have at least one number's type specified.  
+         - For **division**: `(1 : ℝ) / 2 = 0.5`, but `(1 : ℤ) / 2 = 0`.  
+         - For **subtraction**: `(1 : ℤ) - 2 = -1`, but `(1 : ℕ) - 2 = 0`.  
+         Always explicitly annotate the type of at least one operand.  
+         - **Correct**: `(a : ℝ) / b`, `a / (b : ℝ)`, `(n : ℤ) - m`, `n - (m : ℤ)`  
+         - **Incorrect**: `a / b`, `n - m` (ambiguous types)
+
+      11. **Interval Notation**: Do not use `Icc`, `Ioo`, `Ico`, `Ioc`, etc., to represent intervals. Only use inequalities.  
+         - **Correct**: `a ≤ x ∧ x ≤ b`  
+         - **Incorrect**: `Icc a b`
+
+      12. **Complex Numbers**: Use `Complex.I` for the imaginary unit and `Complex.abs` for the modulus/absolute value of a complex number.
+
+      13. **Avoid Common Inequality Theorems**: Avoid using common inequality theorems like Hölder's or Jensen's. For inequality problems, try to ensure each proof step only requires basic simplification.
+
+      14. **Equivalences as Implications**: When handling equivalences `↔`(iff), produce `have` statements as implications:  
+         - Left-to-right: assume LHS, conclude RHS.
+         - Right-to-left: assume RHS, conclude LHS.
+
+      15. **Real.pi Notation**: Always use `Real.pi`, not `π`.
+
+      16. **Final Check**: Before providing the plan, perform a final review to ensure you have scrupulously followed all the rules above, especially the critical rule regarding `Set`/`Finset`.
+
+      # Examples
+      Below are examples to illustrate the process and input/output format.
+      {examples}
+
+      You must follow all the instructions and mandatory rules above. After deep consideratioin, output the complete plan in Lean for the input below.
+
+      Input:
+      {theorem}
+
+   examples: |
+      Input:
+      theorem singapore2019_r1_p7 (x : ℝ) (hx : Real.tan x = 5) :
+      (6 + Real.sin (2 * x)) / (1 + Real.cos (2 * x)) = 83 := by
+      Output:
+      have h₁ : Real.sin x = 5 * Real.cos x
+      have h₂ : Real.sin x ^ 2 = 25 * Real.cos x ^ 2
+      have h₃ : 26 * Real.cos x ^ 2 = 1
+      have hsin2x_val : Real.sin (2 * x) = (5 : ℝ) / (13 : ℝ)
+      have hcos2x_val : Real.cos (2 * x) = -(12 : ℝ) / (13 : ℝ)
+
+      Input:
+      theorem problem4
+      (g : ℕ → ℝ)
+      (h : ∀ k : ℕ, 5 ≤ k → k ≤ 124 →
+                  g k =
+                     (Real.logb (k : ℝ) ((7 : ℝ) ^ (k ^ 2 - 1))) /
+                     (Real.logb ((k + 1 : ℝ)) ((7 : ℝ) ^ (k ^ 2 - 4)))) :
+      (∏ k in Finset.Icc (5 : ℕ) 124, g k) = (41 : ℝ) / 7 := by
+      Output:
+      have h_prod_split : (∏ k in (Finset.Icc 5 124 : Finset ℕ), g k) = (∏ k in (Finset.Icc 5 124 : Finset ℕ), ((k ^ 2 - 1) / (k ^ 2 - 4 : ℝ))) * (∏ k in (Finset.Icc 5 124 : Finset ℕ), (Real.logb (k : ℝ) (7 : ℝ) / Real.logb ((k + 1 : ℝ)) (7 : ℝ)))
+      have h_telescope_part1 : (∏ k in (Finset.Icc 5 124 : Finset ℕ), ((k ^ 2 - 1) / (k ^ 2 - 4 : ℝ))) = (41 : ℝ) / 21
+      have h_telescope_part2 : (∏ k in (Finset.Icc 5 124 : Finset ℕ), (Real.logb (k : ℝ) (7 : ℝ) / Real.logb ((k + 1 : ℝ)) (7 : ℝ))) = 3
+      have h_final_product : (41 / 21 : ℝ) * 3 = (41 : ℝ) / 7
+
+      Input:
+      theorem amc12b_variant_p13
+      (S : Finset ℝ)
+      (h₀ : ∀ (x : ℝ), x ∈ S ↔ 0 < x ∧ x ≤ 2 * Real.pi ∧ 2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0) :
+      S.card = 4 := by
+      Output:
+      have h_interval1 : ∃ x, 0 ≤ x ∧ x < Real.pi / 2 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval2 : ∃ x, Real.pi / 2 ≤ x ∧ x < 3 * Real.pi / 4 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval3 : ∃ x, 3 * Real.pi / 4 ≤ x ∧ x < Real.pi ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval4 : ∃ x, Real.pi ≤ x ∧ x < 2 * Real.pi ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_card_eq_4 : S.card = 4
+
+Dynamic Replanning:
+   system: |
+      You are an expert assistant specializing in Math Olympiads and the Lean 4 theorem prover.
+      Your primary goal is to generate **syntactically perfect, type-checkable** Lean 4 intermediate steps for a given theorem.
+      Strictly adhere to the following rules. ANY violation will be considered an error.
+      While ensuring correctness, generate as many intermediate steps as possible.
+
+   template: |
+      # Task
+      Given the following theorem statement, along with already proven subgoals and a currently stuck subgoal, your job is to **replan the remaining proof** by analyzing the stuck subgoal and generating a coherent sequence of `have` statements, either by correcting the stuck subgoal or decomposing the stuck subgoal into smaller, logically consistent steps leading toward the theorem's conclusion.  
+      The plan must have all proven subgoals in their original order and position. Only insert new `have` statements **immediately after** them. 
+      These new statements should form a clear chain of reasoning that bridges the current progress to the final theorem, breaking down complex reasoning into simpler components.
+
+      # Mandatory Rules
+      You must comply with every rule in this section. Failure to adhere to any single rule will result in an incorrect output.
+
+      1. **★★★ Critical Rule: Explicitly Specify Set/Finset Types ★★★**  
+         This is the most common and fatal point of error. You **must** explicitly declare the type for any `Set` or `Finset` literal. This rule is non-negotiable.  
+         - **Correct**: `({{-1, 0, 1}} : Set ℤ)`  
+         - **Correct**: `(Finset.Icc 1 42 : Finset ℕ)`  
+         - **Incorrect**: `{{-1, 0, 1}}`  
+         - **Incorrect**: `Finset.Icc 1 42`
+
+      2. **Omit the Proof**: Never provide the proof (i.e., no `by` part). Only state the `have` statement itself.
+
+      3. **Valid Lean 4 Code**: The entire output block must be type-checkable in a Lean 4.10.0 environment.
+
+      4. **Use Existing Names**: Use the exact, existing lemma and definition names from `mathlib`. Do not invent names.
+
+      5. **No Undeclared Variables**: Do not introduce any variables or constants not declared in the original theorem statement.
+
+      6. **Explicit Multiplication**: Multiplication must always use the `*` symbol.  
+         - **Correct**: `a * x`  
+         - **Incorrect**: `ax`
+
+      7. **No Chained Inequalities**: Never use chained inequalities. They must be split using logical AND `∧`.  
+         - **Correct**: `a ≤ x ∧ x ≤ b`  
+         - **Incorrect**: `a ≤ x ≤ b`
+
+      8. **Correct Logarithm Function**: `Real.log` is only for the natural logarithm. For logarithms with a specified base, you must use `Real.logb`.  
+         - **Correct**: `Real.logb (2 : ℝ) 8`  
+         - **Incorrect**: `Real.log (2 : ℝ) 8`
+
+      9. **Factorial Notation**: In Lean, factorials must be written as `(n)!` or `Nat.factorial n`, not `n!`.  
+         - **Correct**: `(n)!` or `Nat.factorial n`  
+         - **Incorrect**: `n!`
+
+      10. **Numeric Types Must Be Explicitly Annotated**: To avoid type ambiguity in Lean, any expression involving numeric operations must have at least one number's type specified.  
+         - For **division**: `(1 : ℝ) / 2 = 0.5`, but `(1 : ℤ) / 2 = 0`.  
+         - For **subtraction**: `(1 : ℤ) - 2 = -1`, but `(1 : ℕ) - 2 = 0`.  
+         Always explicitly annotate the type of at least one operand.  
+         - **Correct**: `(a : ℝ) / b`, `a / (b : ℝ)`, `(n : ℤ) - m`, `n - (m : ℤ)`  
+         - **Incorrect**: `a / b`, `n - m` (ambiguous types)
+
+      11. **Interval Notation**: Do not use `Icc`, `Ioo`, `Ico`, `Ioc`, etc., to represent intervals. Only use inequalities.  
+         - **Correct**: `a ≤ x ∧ x ≤ b`  
+         - **Incorrect**: `Icc a b`
+
+      12. **Complex Numbers**: Use `Complex.I` for the imaginary unit and `Complex.abs` for the modulus/absolute value of a complex number.
+
+      13. **Avoid Common Inequality Theorems**: Avoid using common inequality theorems like Hölder's or Jensen's. For inequality problems, try to ensure each proof step only requires basic simplification.
+
+      14. **Equivalences as Implications**: When handling `↔`, produce `have` statements as implications:  
+         - Left-to-right: assume LHS, conclude RHS.  
+         - Right-to-left: assume RHS, conclude LHS.
+
+      15. **Real.pi Notation**: Always use `Real.pi`, not `π`.
+
+      16. **Insert After Proven Steps**: All new auxiliary `have` statements must be inserted **immediately after** the provided proven subgoals. The proven subgoals' wording, order, and placement are **immutable**. They must remain exactly as given, with no edits, insertions, or extensions inside them.
+
+      17. **Provide Complete Plan**: Output the **entire updated plan**, preserving the proven subgoals **exactly as given** and appending new `have` statements after them in the correct order. Do **not** output only the new ones. The plan must contain multiple new `have` statements with sufficient intermediate steps to meaningfully connect to the theorem's conclusion.
+
+      18. **Ensure Logical Continuity**: Each new step must be logically sound. Avoid repetition of the stuck subgoal. If the stuck subgoal is restated, it must not appear immediately after the last proven subgoal. New intermediate steps must be introduced in between.
+
+      19. **Final Check**: Before providing the plan, perform a final review to ensure you have scrupulously followed all the rules above, especially the critical rule regarding `Set`/`Finset`.
+         
+      # Examples
+      Below are examples to illustrate the process and input/output format.
+      {examples}
+
+      You must follow all the instructions and mandatory rules above. After deep consideratioin, output the complete refined plan in Lean for the input below.
+
+      Input:
+      Theorem
+      {theorem}
+      Proven Subgoals
+      {proven_subgoals}
+      Stuck Subgoal
+      {stuck_subgoal}
+
+   examples: |
+      Input:
+      Theorem
+      theorem singapore2019_r1_p7 (x : ℝ) (hx : Real.tan x = 5) :
+      (6 + Real.sin (2 * x)) / (1 + Real.cos (2 * x)) = 83 := by
+      Proven Subgoals
+      
+      Stuck Subgoal
+      have hsin2x_val : Real.sin (2 * x) = -(5 : ℝ) / (13 : ℝ)
+      Output:
+      have h₁ : Real.sin x = 5 * Real.cos x
+      have h₂ : Real.sin x ^ 2 = 25 * Real.cos x ^ 2
+      have h₃ : 26 * Real.cos x ^ 2 = 1
+      have hsin2x_val : Real.sin (2 * x) = (5 : ℝ) / (13 : ℝ)
+      have hcos2x_val : Real.cos (2 * x) = -(12 : ℝ) / (13 : ℝ)
+
+      Input:
+      Theorem
+      theorem amc12b_variant_p13
+      (S : Finset ℝ)
+      (h₀ : ∀ (x : ℝ), x ∈ S ↔ 0 < x ∧ x ≤ 2 * Real.pi ∧ 2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0) :
+      S.card = 4 := by
+      Proven Subgoals
+      have h_interval1 : ∃ x, 0 ≤ x ∧ x < Real.pi / 2 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval2 : ∃ x, Real.pi / 2 ≤ x ∧ x < 3 * Real.pi / 4 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      Stuck Subgoal
+      have h_card_eq_4 : S.card = 4
+      Output:
+      have h_interval1 : ∃ x, 0 ≤ x ∧ x < Real.pi / 2 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval2 : ∃ x, Real.pi / 2 ≤ x ∧ x < 3 * Real.pi / 4 ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval3 : ∃ x, 3 * Real.pi / 4 ≤ x ∧ x < Real.pi ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_interval4 : ∃ x, Real.pi ≤ x ∧ x < 2 * Real.pi ∧ (2 - 4 * Real.sin x + 3 * Real.cos (3 * x) = 0)
+      have h_card_eq_4 : S.card = 4
+
+      Input:
+      Theorem
+      theorem trig_identity_4x (x : ℝ) :
+      Real.sin (4 * x) = 4 * Real.sin x * Real.cos x * (1 - 2 * Real.sin x ^ 2) := by
+      Proven Subgoals
+      have h_sin4x_is_2sin2xcos2x : Real.sin (4 * x) = 2 * Real.sin (2 * x) * Real.cos (2 * x)
+      Stuck Subgoal
+      have h_identity : Real.sin (2 * x) * Real.cos (2 * x) = 2 * Real.sin x * Real.cos x * (1 - 2 * Real.sin x ^ 2)
+      Output:
+      have h_sin4x_is_2sin2xcos2x : Real.sin (4 * x) = 2 * Real.sin (2 * x) * Real.cos (2 * x)
+      have h_sin2x : Real.sin (2 * x) = 2 * Real.sin x * Real.cos x
+      have h_cos2x_in_terms_of_sin_cos : Real.cos (2 * x) = Real.cos x ^ 2 - Real.sin x ^ 2
+      have h_cos2x_in_terms_of_sin : Real.cos (2 * x) = 1 - 2 * Real.sin x ^ 2
+      have h_final_identity : 2 * Real.sin (2 * x) * Real.cos (2 * x) = 4 * Real.sin x * Real.cos x * (1 - 2 * Real.sin x ^ 2)

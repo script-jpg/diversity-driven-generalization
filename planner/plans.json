@@ -1,0 +1,10 @@
+{
+  "imo_1959_q1": {
+    "plan": [
+      "have h₁ : ∃ a b : ℤ, a * (21 * n + 4) + b * (14 * n + 3) = 1",
+      "have h₂ : nat.gcd (21 * n + 4) (14 * n + 3) ∣ 1",
+      "have hresult : nat.gcd (21 * n + 4) (14 * n + 3) = 1"
+    ],
+    "progress": 0
+  }
+}
